@@ -6,7 +6,7 @@
 #include <LiquidCrystal.h>
 #define DHT_SENSOR_TYPE DHT_TYPE_11
 
-static const int DHT_SENSOR_PIN = 2;
+static const int DHT_SENSOR_PIN = 4;
 DHT_nonblocking dht_sensor( DHT_SENSOR_PIN, DHT_SENSOR_TYPE );
 
 // initialize the library with the numbers of the interface pins
