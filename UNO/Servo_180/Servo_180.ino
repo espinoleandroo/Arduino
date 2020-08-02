@@ -30,10 +30,10 @@ void loop(){
   delay(1000);
   myservo.write(180);// move servos to center position -> 120°
   delay(1000);
-  myservo.write(135);// move servos to center position -> 90°
+  myservo.write(225);// move servos to center position -> 90°
   delay(1000);
-  myservo.write(90);// move servos to center position -> 60°
+  myservo.write(270);// move servos to center position -> 60°
   delay(1000);
-  myservo.write(45);// move servos to center position -> 90°
+  myservo.write(315);// move servos to center position -> 90°
   delay(1000);
 }
