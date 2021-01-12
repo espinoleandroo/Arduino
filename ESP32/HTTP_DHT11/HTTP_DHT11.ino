@@ -11,7 +11,7 @@ const char* ssid = "UbeeD22A";
 const char* password = "DA0C88D22A";
 
 //Your Domain name with URL path or IP address with path
-const char* serverName = "http://192.168.0.10:1880/update-sensor";
+const char* serverName = "http://192.168.0.14:1880/update-sensor";
 
 unsigned long lastTime = 0;
 unsigned long timerDelay = 5000;
